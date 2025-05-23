@@ -1,0 +1,1 @@
+SQL Server Managment studio'nuzu açın. Solda Databases kısmına sağ tıklayıp "Import Data-tier Application" kısmına tıklayın. Daha sonrasında Next diyip bu dizindeki "stok_takip.bacpac" dosyasını seçin. Oluşturmuş olduğum yapı sizin database programınıza da gelecektir. Daha sonrasında Visual Studio ile bağlantı stringini değiştirin. Proje sizde de çalışacaktır.

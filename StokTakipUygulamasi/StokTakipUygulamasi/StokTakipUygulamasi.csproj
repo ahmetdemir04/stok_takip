@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47FD3289-BCB5-4F8F-BCE9-7EA0E9B52EA0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StokTakipUygulamasi</RootNamespace>
+    <AssemblyName>StokTakipUygulamasi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>revenue.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBrands.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBrands.Designer.cs">
+      <DependentUpon>FrmBrands.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFindProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFindProducts.Designer.cs">
+      <DependentUpon>FrmFindProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSales.Designer.cs">
+      <DependentUpon>FrmSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListSales.Designer.cs">
+      <DependentUpon>FrmListSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductsAdd.Designer.cs">
+      <DependentUpon>FrmProductsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductControl.Designer.cs">
+      <DependentUpon>FrmProductControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalesDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalesDetail.Designer.cs">
+      <DependentUpon>FrmSalesDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionCls.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlConnectionCls.cs" />
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBrands.resx">
+      <DependentUpon>FrmBrands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFindProducts.resx">
+      <DependentUpon>FrmFindProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSales.resx">
+      <DependentUpon>FrmSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListSales.resx">
+      <DependentUpon>FrmListSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductsAdd.resx">
+      <DependentUpon>FrmProductsAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductControl.resx">
+      <DependentUpon>FrmProductControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalesDetail.resx">
+      <DependentUpon>FrmSalesDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\noproductimage.jpg" />
+    <Content Include="Images\Products\.jpg" />
+    <Content Include="Images\Products\11.jpg" />
+    <Content Include="Images\Products\45468748.jpg" />
+    <Content Include="Images\Products\AMD_Ryzen_7_7800X3D_Octa_Core_4.2GHz.png" />
+    <Content Include="Images\Products\AMD_Ryzen_9_9900X3D_4.4GHz.jpg" />
+    <Content Include="Images\Products\AMD_Ryzen_9_9900X_4.4GHz_64MB.jpg" />
+    <Content Include="Images\Products\AOC_25G3ZM_24.5_240Hz_0.5ms.jpg" />
+    <Content Include="Images\Products\AOC_Q27G42XE_27_180Hz_1ms.jpg" />
+    <Content Include="Images\Products\Apple%27ın_14_inç_MacBook_Pro%27sunun_Apple_M4_Pro.jpg" />
+    <Content Include="Images\Products\asus_b850.jpg" />
+    <Content Include="Images\Products\ASUS_Dual_GeForce_RTX_3050_OC_Edition.jpg" />
+    <Content Include="Images\Products\ASUS_GeForce_RTX_4060_DUAL_OC_V2.jpg" />
+    <Content Include="Images\Products\ASUS_TUF_Gaming_A15_FA507NUR-LP006.jpg" />
+    <Content Include="Images\Products\ASUS_TUF_GAMING_H3_Gun_7.1.jpg" />
+    <Content Include="Images\Products\ASUS_TUF_Gaming_VG249Q3A.jpg" />
+    <Content Include="Images\Products\ASUS_X1504ZA-NJ547W.jpg" />
+    <Content Include="Images\Products\bitfenix_c20.jpg" />
+    <Content Include="Images\Products\CASPER_Nirvana_C370.4020-4C00B.jpg" />
+    <Content Include="Images\Products\CASPER_Nirvana_X600.7430-DF00X-G-F.jpg" />
+    <Content Include="Images\Products\CORSAIR_HS80_USB_Dolby_Audio_RGB_7.1.jpg" />
+    <Content Include="Images\Products\CORSAIR_HS80_Wireless_Dolby_Atmos.jpg" />
+    <Content Include="Images\Products\CORSAIR_VIRTUOSO_MAX_WIRELESS.jpg" />
+    <Content Include="Images\Products\GIGABYTE_GeForce_RTX_4060_Ti.jpg" />
+    <Content Include="Images\Products\GIGABYTE_H610M_S2H_V2.jpg" />
+    <Content Include="Images\Products\GIGABYTE_Radeon_RX_7700_XT.jpg" />
+    <Content Include="Images\Products\GSKILL_8GB_Ripjaws_V_Siyah_3200MHz.jpg" />
+    <Content Include="Images\Products\INTEL_ARC_B580_12GB_GDDR6_192Bit.jpg" />
+    <Content Include="Images\Products\INTEL_Core_i5_14600KF_3.5GHz_24MB.jpg" />
+    <Content Include="Images\Products\INTEL_Core_Ultra_5_225F_3.3GHz.jpg" />
+    <Content Include="Images\Products\Kingston_16GB%281x16%29_Beast_EXPO_5600mhz.jpg" />
+    <Content Include="Images\Products\LENOVO_LOQ_Intel_Core_i5-12600HX.jpg" />
+    <Content Include="Images\Products\LENOVO_Tab_M11.jpg" />
+    <Content Include="Images\Products\lexar_16gb.jpg" />
+    <Content Include="Images\Products\Logitech_G_G102.jpg" />
+    <Content Include="Images\Products\MIKADO_MD-178_2.0_3W2_RGB.jpg" />
+    <Content Include="Images\Products\MONSTER_Abra_A7_V15.3.4.jpg" />
+    <Content Include="Images\Products\MSI_49_MPG_491CQPX_QD-OLED_240Hz.jpg" />
+    <Content Include="Images\Products\MSI_PRO_Z890-S_WIFI_PZ.jpg" />
+    <Content Include="Images\Products\PowerBoost_PB-PS5846B_600W.jpg" />
+    <Content Include="Images\Products\Rampage_Arty_X13_2.0_RMS_3Wx2.jpg" />
+    <Content Include="Images\Products\Rampage_CRIMSON_CR25R180.jpg" />
+    <Content Include="Images\Products\Rampage_Elegant_x10_2.0_Bluetooth.jpg" />
+    <Content Include="Images\Products\Rampage_PROTE_M5.jpg" />
+    <Content Include="Images\Products\Razer_BlackShark_V2_X_Green.jpg" />
+    <Content Include="Images\Products\Riot_Games_1000_Vp.jpg" />
+    <Content Include="Images\Products\rival3.jpg" />
+    <Content Include="Images\Products\Samsung_Galaxy_Tab_S9_FE+_SM-X610.jpg" />
+    <Content Include="Images\Products\Samsung_Galaxy_Tab_S9_FE_SM-X510_Gray.jpg" />
+    <Content Include="Images\Products\SteelSeries_Arctis_Nova_1_Hi-Fi.jpg" />
+    <Content Include="Images\Products\ViewSonic_VX2779-HD-PRO_27.jpg" />
+    <Content Include="revenue.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="CopyImagesFolder" AfterTargets="Build">
+    <MakeDir Directories="$(OutDir)Images" />
+    <CreateItem Include="Images\**\*.*">
+      <Output TaskParameter="Include" ItemName="ImageFiles" />
+    </CreateItem>
+    <Copy SourceFiles="@(ImageFiles)" DestinationFiles="@(ImageFiles->'$(OutDir)Images\%(RecursiveDir)%(Filename)%(Extension)')" />
+  </Target>
+</Project>
