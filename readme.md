@@ -1,6 +1,6 @@
 # Stok Takip Programı
 
-<p>Programın çalışır halde bulunan video: x
+<p>Programın çalışır halde bulunan video: www.youtube.com/watch?v=YL2aCuQvhyo
  
 # Proje Veritabanının Kurulumu ve Yapılandırılması
 <p>Uygulamanın veritabanını kendi SQL Server Management Studio ortamınıza eklemek için aşağıdaki adımları takip ediniz:</p>
