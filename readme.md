@@ -16,36 +16,36 @@ Belirtilen adımları eksiksiz uyguladığınız takdirde proje sorunsuz bir şe
 
 ## Giriş Ekranı Sayfası
 
-![img](ekranFotograflari/f_login.png)
+![img](StokTakipUygulamasi/ekranFotograflari/f_login.png)
 
 ## Ürün Ekleme Sayfası
 
-![img](ekranFotograflari/f_product_add.png)
+![img](StokTakipUygulamasi/ekranFotograflari/f_product_add.png)
 
 ## Ürün Kontrollerinin Sağlandığı Sayfa
 
-![img](ekranFotograflari/f_product_control.png)
+![img](StokTakipUygulamasi/ekranFotograflari/f_product_control.png)
 
 ## Kategori Ekleme Sayfası
 
-![img](ekranFotograflari/f_category.png)
+![img](StokTakipUygulamasi/ekranFotograflari/f_category.png)
 
 ## Marka Ekleme Sayfası
 
-![img](ekranFotograflari/f_brands.png)
+![img](StokTakipUygulamasi/ekranFotograflari/f_brands.png)
 
 ## Ürün Arama Sayfası
 
-![img](ekranFotograflari/f_search_product.png)
+![img](StokTakipUygulamasi/ekranFotograflari/f_search_product.png)
 
 ## Satış Sayfası
 
-![img](ekranFotograflari/f_sales.png)
+![img](StokTakipUygulamasi/ekranFotograflari/f_sales.png)
 
 ## Satış Detayı Sayfası
 
-![img](ekranFotograflari/f_sales_detail.png)
+![img](StokTakipUygulamasi/ekranFotograflari/f_sales_detail.png)
 
 ## Yapılan Satışları Listeleme Sayfası
 
-![img](ekranFotograflari/f_list_sales.png)
+![img](StokTakipUygulamasi/ekranFotograflari/f_list_sales.png)
