@@ -4,12 +4,12 @@
  
 # Proje Veritabanının Kurulumu ve Yapılandırılması
 <p>Uygulamanın veritabanını kendi SQL Server Management Studio ortamınıza eklemek için aşağıdaki adımları takip ediniz:</p>
-1. SQL Server Management Studio'yu açınız.
-2. Sol kısımdaki Databases bölümüne sağ tıklayarak Import Data-tier Application seçeneğine tıklayınız.
-3. Açılan sihirbazda Next butonuna tıklayarak devam ediniz.
-4. Proje klasörüne gidip database klasörünü açınız.
-5. Bu klasörde yer alan stok_takip.bacpac dosyasını seçerek içeri aktarım işlemini tamamlayınız.
-6. Ardından Visual Studio ortamında SqlConnectionCls isimli sınıf dosyasını açınız.
+1. SQL Server Management Studio'yu açınız. <br>
+2. Sol kısımdaki Databases bölümüne sağ tıklayarak Import Data-tier Application seçeneğine tıklayınız.<br>
+3. Açılan sihirbazda Next butonuna tıklayarak devam ediniz.<br>
+4. Proje klasörüne gidip database klasörünü açınız.<br>
+5. Bu klasörde yer alan stok_takip.bacpac dosyasını seçerek içeri aktarım işlemini tamamlayınız.<br>
+6. Ardından Visual Studio ortamında SqlConnectionCls isimli sınıf dosyasını açınız.<br>
 7. Bu sınıf içerisindeki Constring (bağlantı dizesi) alanını, kendi veritabanınızın bağlantı yoluna göre güncelleyiniz.
 
 Belirtilen adımları eksiksiz uyguladığınız takdirde proje sorunsuz bir şekilde çalışacaktır.
